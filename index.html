@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedrock Node — Exploration & Learning Hub</title>
+    <meta name="description"
+        content="A self-learning domain dedicated to learning, creating, and exploring projects. Discover subdomains including cralsim.bedrock and m.bedrock.">
+
+    <!-- Link CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Premium Background Effects -->
+    <div class="background-container">
+        <canvas id="canvas-particles"></canvas>
+        <div class="mesh-glow mesh-glow-1"></div>
+        <div class="mesh-glow mesh-glow-2"></div>
+        <div class="mesh-glow mesh-glow-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="app-container">
+
+        <!-- Header Section -->
+        <header>
+            <a href="#" class="logo" id="header-logo">
+                <div class="logo-icon">B</div>
+                <span class="logo-text">Bedrock Node</span>
+            </a>
+            <div class="badge">Local Sandbox</div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-tagline">Self-Learning Domain</div>
+            <h1>Learn. Create. Explore.</h1>
+            <p class="hero-description">
+                A sandbox environment dedicated to technical experimentation, continuous learning, and software
+                prototyping. This is where concepts turn into functional systems.
+            </p>
+        </section>
+
+        <!-- Subdomain Cards Section -->
+        <section class="subdomains-section">
+            <h2 class="section-label" id="projects-label">Active Subdomains</h2>
+
+            <div class="cards-grid">
+
+                <!-- Card 1: cralsim.bedrock -->
+                <a href="http://cralsim.bedrocknode.com" class="subdomain-card cralsim" id="card-cralsim"
+                    target="_blank" rel="noopener noreferrer">
+                    <div class="card-bg-gradient"></div>
+
+                    <div class="card-top">
+                        <div class="card-icon-wrap">
+                            <!-- Network/Simulation SVG icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94-3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                            </svg>
+                        </div>
+                        <div class="card-domain">cralsim.bedrock</div>
+                        <h3>Cryptography Algorithm Simulator</h3>
+                        <p class="card-desc">
+                            An algorithmic simulation suite designed to test complex agents, state models, and logic
+                            rules in a dynamic virtual interface.
+                        </p>
+                    </div>
+
+                    <div class="card-bottom">
+                        <span class="visit-link">
+                            Launch App
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </span>
+                        <div class="card-status">
+                            <span class="status-dot"></span>
+                            Online
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 2: m.bedrock -->
+                <a href="https://me.bedrocknode.com" class="subdomain-card m-bedrock" id="card-m-bedrock"
+                    target="_blank" rel="noopener noreferrer">
+                    <div class="card-bg-gradient"></div>
+
+                    <div class="card-top">
+                        <div class="card-icon-wrap">
+                            <!-- Mobile Responsive SVG icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                            </svg>
+                        </div>
+                        <div class="card-domain">me.bedrock</div>
+                        <h3>My Portfolio</h3>
+                        <p class="card-desc">
+                            Get to know about me and my work.
+                        </p>
+                    </div>
+
+                    <div class="card-bottom">
+                        <span class="visit-link">
+                            Launch App
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </span>
+                        <div class="card-status">
+                            <span class="status-dot"></span>
+                            Online
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- About Section with Pillars -->
+        <section class="about-section" id="about-info">
+            <div class="about-card">
+                <h2 class="about-title">The Sandbox Space</h2>
+                <p class="about-text">
+                    Bedrock Node acts as an isolated sandbox environment designed for continuous iterations. Focused on
+                    writing lightweight, high-performance web systems and simulation testing interfaces.
+                </p>
+
+                <div class="pillars-grid">
+                    <div class="pillar-item">
+                        <div class="pillar-icon">🧠</div>
+                        <div class="pillar-name">Learn</div>
+                        <div class="pillar-desc">Researching new algorithms and web specifications.</div>
+                    </div>
+                    <div class="pillar-item">
+                        <div class="pillar-icon">🛠️</div>
+                        <div class="pillar-name">Create</div>
+                        <div class="pillar-desc">Building clean components and modular utilities.</div>
+                    </div>
+                    <div class="pillar-item">
+                        <div class="pillar-icon">🧭</div>
+                        <div class="pillar-name">Explore</div>
+                        <div class="pillar-desc">Prototyping dynamic state views and models.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-left">
+                <div class="footer-pulse-dot"></div>
+                <span>Bedrock Node is Active</span>
+            </div>
+            <div class="footer-right">
+                <a href="http://cralsim.bedrock" target="_blank" rel="noopener noreferrer">cralsim</a>
+                <a href="http://m.bedrock" target="_blank" rel="noopener noreferrer">m.bedrock</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Link Javascript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
